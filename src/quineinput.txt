@@ -1,0 +1,1 @@
+for(int i=0;i<quine.length;i++){if(i==88){for(int j=0;j<quine.length;j++){System.out.print(String.format("quine[%d]='%c';",j,quine[j]));}}System.out.print(quine[i]);}
